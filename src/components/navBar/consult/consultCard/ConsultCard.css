@@ -1,0 +1,47 @@
+.consult_card{
+    margin-top:50px;
+}
+.consult_card{
+    height: 310px;
+    width: 150px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+
+.consult_card_img{
+    height: 130px;
+    width: 130px;
+    transition: 3s;
+    border-radius: 50%;
+    align-items: center;
+}
+.consult_card_imgc{
+    text-align: center;
+}
+
+.consult_card_intro{
+    justify-content: center;
+ height: 100px;
+width: 200px;
+
+box-sizing: border-box;
+bottom: 0;
+text-align: center;
+}
+.consult_card_img:hover{
+transform: scale(1.1);
+}
+
+.consult_card_intro > h1{
+font-size: 16px;
+}
+.consult_card_a{
+
+    font-size: 15px;
+    color: rgb(111, 146, 199);
+}
